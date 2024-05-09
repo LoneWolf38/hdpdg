@@ -1,4 +1,4 @@
-module github.com/LoneWolf38/hdpdg
+module github.com/LoneWolf38/kafka_go
 
 go 1.22.2
 

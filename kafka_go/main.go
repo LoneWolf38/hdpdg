@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	dg "github.com/LoneWolf38/hdpdg/datagen"
+	dg "github.com/LoneWolf38/hdpdg/kafka_go/datagen"
 
 	"github.com/integrii/flaggy"
 	"github.com/segmentio/kafka-go"
