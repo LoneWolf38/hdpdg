@@ -16,6 +16,7 @@ type Config struct {
 	Async             bool
 	AckMethod         string
 	AutoTopicCreation bool
+	ConsumerGroupID   string
 }
 
 func readFromConfig(path string) (config Config, err error) {

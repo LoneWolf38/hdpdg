@@ -1,11 +1,9 @@
-module github.com/LoneWolf38/kafka_go
+module kafkadg
 
 go 1.22.2
 
 require (
-	github.com/brianvoe/gofakeit/v7 v7.0.3
 	github.com/hashicorp/go-hclog v1.6.3
-	github.com/integrii/flaggy v1.5.2
 	github.com/segmentio/kafka-go v0.4.47
 	gopkg.in/yaml.v3 v3.0.1
 )

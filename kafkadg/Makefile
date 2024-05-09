@@ -7,3 +7,6 @@ clean:
 
 test:
 	go test ./... -v
+
+build-image:
+	docker build -t hdpgd/kafka-go .

@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	dg "github.com/LoneWolf38/hdpdg/kafka_go/datagen"
+	dg "kafkadg/datagen"
 
-	"github.com/integrii/flaggy"
 	"github.com/segmentio/kafka-go"
 )
 
@@ -14,14 +13,6 @@ var (
 	configPath  string = "./config.yml"
 	iotDataPath        = "./datagen/data/iot_sample.csv"
 )
-
-func init() {
-	flaggy.SetName("hdpdg")
-	flaggy.SetDescription("Hadoop Services Datagenerator")
-	flaggy.SetVersion("0.0.1")
-	flaggy.String(&configPath, "c", "config", "path to config file")
-	flaggy.Parse()
-}
 
 func main() {
 	InitLogger()
