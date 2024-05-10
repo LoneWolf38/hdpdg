@@ -6,7 +6,7 @@ import (
 
 	dg "kafkadg/datagen"
 
-	"github.com/segmentio/kafka-go"
+	"github.com/LoneWol38/kafka-go"
 )
 
 var (
