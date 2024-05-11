@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	dg "kafkadg/datagen"
-
-	"github.com/LoneWol38/kafka-go"
+	dg "github.com/LoneWolf38/hdpdg/kafkadg/datagen"
+	"github.com/segmentio/kafka-go"
 )
 
 var (

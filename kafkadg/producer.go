@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/LoneWol38/kafka-go"
+	"github.com/segmentio/kafka-go"
 )
 
 type KafkaProducer struct {

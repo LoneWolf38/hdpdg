@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/LoneWol38/kafka-go"
+	"github.com/segmentio/kafka-go"
 )
 
 type KafkaConsumer struct {
